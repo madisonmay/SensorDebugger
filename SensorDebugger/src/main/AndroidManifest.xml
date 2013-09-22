@@ -28,6 +28,7 @@
         <activity android:name="GravityActivity"></activity>
         <activity android:name="GyroscopeActivity"></activity>
         <activity android:name="SensorSnapshotActivity"></activity>
+        <activity android:name="SnapshotDetailActivity"></activity>
      </application>
 
 </manifest>

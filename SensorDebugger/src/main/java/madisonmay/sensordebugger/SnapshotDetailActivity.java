@@ -26,7 +26,7 @@ public class SnapshotDetailActivity extends Activity {
         String fileName = intent.getStringExtra("file");
 
         TextView title = (TextView) findViewById(R.id.snapshotTitle);
-        TextView noteText = (TextView) findViewById(R.id.snapshotText);
+        TextView snapshotText = (TextView) findViewById(R.id.snapshotText);
 
         title.setText(fileName);
         StringBuilder fileText = new StringBuilder();
@@ -44,7 +44,7 @@ public class SnapshotDetailActivity extends Activity {
             Log.e("IOException", e.getMessage());
         }
 
-        noteText.setText(fileText.toString());
+        snapshotText.setText(fileText.toString());
 
     }
 }
