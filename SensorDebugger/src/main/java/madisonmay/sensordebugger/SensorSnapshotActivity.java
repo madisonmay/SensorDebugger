@@ -101,7 +101,7 @@ public class SensorSnapshotActivity extends Activity implements SensorEventListe
         started = false;
         SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date now = new Date();
-        String title = sdfDate.format(now);
+        String title = "  " + sdfDate.format(now);
         String fulltext = "";
         status.setText("Complete!");
         for (Map.Entry<String, String> entry : d.entrySet()) {
