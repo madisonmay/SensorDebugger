@@ -12,36 +12,52 @@
     <Button android:id="@+id/magnetic_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Magnetic Field" />
+        android:text="Magnetic Field"
+        android:background="#eaeaea"/>
 
     <Button android:id="@+id/accelerometer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        android:background="#eaeaea"
         android:layout_below="@+id/magnetic_field"
-        android:text="Accelerometer" />
+        android:layout_alignLeft="@+id/magnetic_field"
+        android:layout_marginTop="11dp" />
 
     <Button android:id="@+id/light_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Light"
+        android:background="#eaeaea"
         android:layout_below="@+id/accelerometer"
-        android:text="Light" />
+        android:layout_alignLeft="@+id/accelerometer"
+        android:layout_marginTop="11dp" />
 
     <Button android:id="@+id/gravity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Gravity"
+        android:background="#eaeaea"
         android:layout_below="@+id/light_data"
-        android:text="Gravity" />
+        android:layout_alignLeft="@+id/light_data"
+        android:layout_marginTop="11dp"/>
 
     <Button android:id="@+id/gyro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Gyroscope"
+        android:background="#eaeaea"
         android:layout_below="@+id/gravity"
-        android:text="Gyroscope" />
+        android:layout_alignLeft="@+id/gravity"
+        android:layout_marginTop="11dp"/>
 
     <Button android:id="@+id/snapshot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Sensor Snapshots"
+        android:background="#1992B5"
         android:layout_below="@+id/gyro"
-        android:text="Sensor Snapshots" />
+        android:layout_alignLeft="@+id/gyro"
+        android:layout_marginTop="11dp"/>
 
 </RelativeLayout>

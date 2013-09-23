@@ -10,7 +10,12 @@
         android:layout_height="wrap_content"
         android:text="Take Sensor Snapshot"
         android:id="@+id/snapshot"
-        android:layout_gravity="center" />
+        android:background="#eaeaea"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
     <TextView
         android:layout_width="wrap_content"
